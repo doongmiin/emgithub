@@ -315,7 +315,7 @@
       style="${showBorder ? '' : 'border:0'}">
       <a target="_blank" href="${rawFileURL}" style="float:right">view raw</a>
       <a target="_blank" href="${fileURL}">${decodeURIComponent(showFullPath ? filePath : pathSplit[pathSplit.length - 1])}</a>
-      delivered <span class="hide-in-phone">with ❤ </span>by <a target="_blank" href="${serviceProvider}">emgithub</a>
+      embedded via <a target="_blank" href="${serviceProvider}">emgithub</a>
     </div>`: ''
     }
 
